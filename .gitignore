@@ -1,0 +1,14 @@
+# .NET
+TodoApi/bin/
+TodoApi/obj/
+*.user
+
+# Banco de dados local (SQLite, caso volte a ser usado)
+*.db
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Editor
+.vs/

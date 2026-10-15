@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minhas Tarefas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Minhas Tarefas</h1>
+    <p>Organize seu dia, uma tarefa por vez.</p>
+  </header>
+
+  <main>
+    <section id="form-section">
+      <form id="task-form">
+        <label for="task-input">Nova tarefa</label>
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Ex: Estudar HTML"
+          required
+        >
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section id="list-section">
+      <h2>Lista de tarefas</h2>
+      <ul id="task-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto de estudo &mdash; Etapa 3: JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
