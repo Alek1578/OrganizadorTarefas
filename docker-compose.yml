@@ -1,0 +1,12 @@
+services:
+  api:
+    build: ./TodoApi
+    ports:
+      - "5122:8080"
+
+  web:
+    build: ./todo-react
+    ports:
+      - "5173:80"
+    depends_on:
+      - api
